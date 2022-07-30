@@ -5,10 +5,14 @@ export default function NavBar() {
     <nav>
         
       <h1>
-        <Link to="/budget">Budget Me App</Link>
+        <Link to="/transactions">Budget Me </Link>
       </h1>
       <button>
-        <Link to="/budget/new">New Transaction</Link>
+        <Link to ="/">Home</Link>
+      </button>
+      <br></br>
+      <button>
+        <Link to="/transactions/new">New Transaction</Link>
       </button>
     </nav>
   );

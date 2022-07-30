@@ -19,10 +19,10 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/budget" element={<Index />} />
-            <Route path="/budget/new" element={<New />} />
-            <Route path="/budget/:index" element={<Show />} />
-            <Route path="/budget/:index/edit" element={<Edit />} />
+            <Route path="/transactions" element={<Index />} />
+            <Route path="/transactions/new" element={<New />} />
+            <Route path="/transactions/:id" element={<Show />} />
+            <Route path="/transactions/:id/edit" element={<Edit />} />
           </Routes>
         </main>
       </Router>

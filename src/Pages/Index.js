@@ -1,10 +1,10 @@
 import React from 'react'
-import BudgetIndex from "../components/BudgetIndex";
+import Budgets from "../components/Budgets";
 function Index() {
   return (
     <div className="Index">
-      <h2>Index</h2>
-      <BudgetIndex />
+      <h2>Budget Feed</h2>
+      <Budgets />
     </div>
   );
 }

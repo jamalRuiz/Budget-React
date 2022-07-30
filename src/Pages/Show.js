@@ -1,11 +1,11 @@
 import React from 'react'
-import BudgetDetails from '../components/BudgetDetails'
+import BudgetShow from "../components/BudgetShow"
 
 function Show() {
   return (
     <div>
-        <h2>Show</h2>
-        <BudgetDetails/>
+        <h2>Details</h2>
+        <BudgetShow/>
     </div>
   )
 }
