@@ -3,7 +3,7 @@ import BudgetNew from '../components/BudgetNew'
 
 function New() {
   return (
-    <div>
+    <div className='new'>
         <h2>Add a New Item</h2>
         <BudgetNew/>
     </div>

@@ -87,12 +87,13 @@ const API = process.env.REACT_APP_API_URL;
         <br/>
         <label>Category:</label>
         <select value={transaction.category} id='category' onChange={handleChange} >
-          <option value='housing'>Housing</option>
+        <option value='placeholder'>Select a Category</option>
+          <option value='rent'>Rent</option>
           <option value='Income'>Income</option>
           <option value='transportation'>Transportation</option>
           <option value='food'>Food</option>
           <option value='utilities'>Utilities</option>
-          <option value='entertainment'>Entertainment</option>
+          <option value='subscriptions'>Subscriptions</option>
         </select>
         <br/>
         <input type="submit" />

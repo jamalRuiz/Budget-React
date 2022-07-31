@@ -76,14 +76,16 @@ function BudgetNew() {
         <br />
         <label>Category:</label>
         <select value={transaction.category} id='category' onChange={handleTextChange} >
-          <option value='housing'>Housing</option>
+          <option value='placeholder'>Select a Category</option>
+          <option value='Rent'>Rent</option>
           <option value='Income'>Income</option>
           <option value='transportation'>Transportation</option>
           <option value='food'>Food</option>
           <option value='utilities'>Utilities</option>
-          <option value='entertainment'>Entertainment</option>
+          <option value='subscriptions'>Subscriptions</option>
         </select>
-        <input type="submit" />
+        <br/>
+        <input className='newSubmit' type="submit" />
       </form>
     </div>
   );
